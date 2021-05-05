@@ -10,7 +10,7 @@
                 <a href="{{ route('students.index') }}" class="p-3">Students</a>
             </li>
             <li>
-                <a href="#" class="p-3">Courses</a>
+                <a href="{{ route('courses.index') }}" class="p-3">Courses</a>
             </li>
             <li>
                 <a href="#" class="p-3">Registrations</a>

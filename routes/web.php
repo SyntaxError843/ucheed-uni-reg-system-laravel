@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StudentController;
+use App\Http\Controllers\CourseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,8 @@ Route::get('/', [ HomeController::class, 'index' ])->name('home');
  * Students routes
  */
 Route::resource('students', StudentController::class);
+
+/**
+ * Courses routes
+ */
+Route::resource('courses', CourseController::class);
